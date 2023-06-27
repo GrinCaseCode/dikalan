@@ -599,9 +599,6 @@
 		padding-top: 115px;
 		min-height: 500px;
 	}
-	.billbord__video {
-		display: none;
-	}
 	.item-about__title {
 		font-size: 19px;
 		margin-bottom: 8px;
@@ -649,6 +646,23 @@
 	}
 	.item-contact {
 		height: 340px;
+	}
+	.video-block__image {
+		width: 155px;
+		height: 95px;
+		margin-bottom: -12px;
+	}
+	.video-block__icon {
+		width: 35px;
+		height: 35px;
+		margin-right: -17px;
+	}
+	.video-block {
+		font-size: 12px;
+	}
+	.video-block__text {
+		max-width: 100px;
+		margin-right: 11px;
 	}
 }
 
