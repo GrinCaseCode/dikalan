@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Geologica';
+    src: local('Geologica Regular'), local('Geologica-Regular'),
+        url('Geologica-Regular.woff2') format('woff2'),
+        url('Geologica-Regular.woff') format('woff'),
+        url('Geologica-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
