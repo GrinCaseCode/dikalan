@@ -620,7 +620,7 @@
 		padding-bottom: 25px;
 	}
 	.slider-catalog {
-		padding-bottom: 20px;
+		padding-bottom: 25px;
 	}
 	.slider-catalog .slick-slide {
 		padding: 0 1px;
@@ -646,6 +646,9 @@
 	}
 	.consultation__left p {
 		margin-bottom: 13px;
+	}
+	.item-contact {
+		height: 340px;
 	}
 }
 
@@ -701,6 +704,16 @@
 	.title-middle {
 		font-size: 18px;
 		line-height: 24px;
+	}
+	.head-section {
+		margin-bottom: 22px;
+	}
+	.categories {
+		padding-top: 25px;
+	}
+	.catalog {
+		padding-top: 25px;
+		padding-bottom: 30px;
 	}
 }
 
