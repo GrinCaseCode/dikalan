@@ -19,12 +19,29 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.5" />
-	<link rel="stylesheet" href="css/media.css?ver=1.5" />
+	<link rel="stylesheet" href="css/main.css?ver=1.10" />
+	<link rel="stylesheet" href="css/media.css?ver=1.10" />
 </head>
 <body>
 
 	<div class="wrapper">
+
+		<div class="buttons-mobile">
+			<a href="#" class="btn-mobile btn-mobile_catalog">
+				<img src="img/menu.svg" alt="alt">
+				<span class="btn-mobile__title">КАТАЛОГ</span>
+			</a>
+			<a href="#" class="btn-mobile">
+				<img src="img/login.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-mobile">
+				<img src="img/heart.svg" alt="alt">
+			</a>
+			<a href="#" class="btn-mobile">
+				<img src="img/basket.svg" alt="alt">
+				<span class="btn-mobile__value">1</span>
+			</a>
+		</div>
 
 		<header class="header default">
 			<div class="header-top">
@@ -38,6 +55,9 @@
 						<div class="header__location">Московская область г. Одинцово, ул. Западная, 13</div>
 						<a href="mailto:slot77@dikalan.ru" class="header__mail">slot77@dikalan.ru</a>
 						<a href="#" class="btn-user">Вход <img src="img/login.svg" alt="alt"></a>
+						<a href="tel:+79258716557" class="phone-mobile">
+							<img src="img/phone.svg" alt="alt">
+						</a>
 						<div class="menu-dropdown">
 							<ul class="nav">
 								<li><a href="#">доставка и оплата</a></li>
@@ -55,7 +75,7 @@
 										<img src="img/search.svg" alt="alt">
 									</a>
 									<div class="line-contacts">
-										<a href="#">+7 (925) 871-65-57</a>
+										<a href="tel:+79258716557">+7 (925) 871-65-57</a>
 										<a href="#">
 											<img src="img/phone.svg" alt="alt">
 										</a>
@@ -74,6 +94,9 @@
 								<div class="header__location">Московская область г. Одинцово, ул. Западная, 13</div>
 								<a href="mailto:slot77@dikalan.ru" class="header__mail">slot77@dikalan.ru</a>
 							</div>
+						</div>
+						<div class="buttons-close">
+							<div class="header-bottom_close"><i class="fal fa-times"></i></div>
 						</div>
 					</div>
 				</div>
@@ -125,6 +148,14 @@
 						<li><a href="#">пеленальные столики</a></li>
 						<li><a href="#">водоотводящие желоба</a></li>
 					</ul>
+				</div>
+			</div>
+			<div class="search-mobile">
+				<div class="container">
+					<form>
+						<input type="text">
+						<button class="btn-search"><i class="far fa-search"></i></button>
+					</form>
 				</div>
 			</div>
 		</header>
@@ -206,42 +237,93 @@
 					<h2 class="title-section">Категории товаров</h2>
 					<a href="#" class="link-page">Все категории</a>
 				</div>
-				<div class="row row_categories">
-					<div class="col-lg-3 col-md-6">
-						<a href="#" class="item-category">
-							<img src="img/category1.jpg" alt="alt">
-							<span class="item-category__title">Смесители</span>
-						</a>
-						<a href="#" class="item-category">
-							<img src="img/category2.jpg" alt="alt">
-							<span class="item-category__title">Столики пеленальные </span>
-						</a>
+				<div class="categories-desktop">
+					<div class="row row_categories">
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/category1.jpg" alt="alt">
+								<span class="item-category__title">Смесители</span>
+							</a>
+							<a href="#" class="item-category">
+								<img src="img/category2.jpg" alt="alt">
+								<span class="item-category__title">Столики пеленальные </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category item-category_big">
+								<img src="img/category3.jpg" alt="alt">
+								<span class="item-category__title">Душевые стойки</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/category4.jpg" alt="alt">
+								<span class="item-category__title">Аксессуары</span>
+							</a>
+							<a href="#" class="item-category">
+								<img src="img/category5.jpg" alt="alt">
+								<span class="item-category__title">Водоотводящие желоба </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/category6.jpg" alt="alt">
+								<span class="item-category__title">Зеркала</span>
+							</a>
+							<a href="#" class="item-category">
+								<img src="img/category7.jpg" alt="alt">
+								<span class="item-category__title">Поручни</span>
+							</a>
+						</div>
 					</div>
-					<div class="col-lg-3 col-md-6">
-						<a href="#" class="item-category item-category_big">
-							<img src="img/category3.jpg" alt="alt">
-							<span class="item-category__title">Душевые стойки</span>
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<a href="#" class="item-category">
-							<img src="img/category4.jpg" alt="alt">
-							<span class="item-category__title">Аксессуары</span>
-						</a>
-						<a href="#" class="item-category">
-							<img src="img/category5.jpg" alt="alt">
-							<span class="item-category__title">Водоотводящие желоба </span>
-						</a>
-					</div>
-					<div class="col-lg-3 col-md-6">
-						<a href="#" class="item-category">
-							<img src="img/category6.jpg" alt="alt">
-							<span class="item-category__title">Зеркала</span>
-						</a>
-						<a href="#" class="item-category">
-							<img src="img/category7.jpg" alt="alt">
-							<span class="item-category__title">Поручни</span>
-						</a>
+				</div>
+				<div class="categories-mobile">
+					<div class="row row_categories">
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob1.png" alt="alt">
+								<span class="item-category__title">Смесители</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob2.png" alt="alt">
+								<span class="item-category__title">Душевые <br>стойки</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob3.png" alt="alt">
+								<span class="item-category__title">Столики пеленальные </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob4.png" alt="alt">
+								<span class="item-category__title">Аксессуары</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob5.png" alt="alt">
+								<span class="item-category__title">Зеркала</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob6.png" alt="alt">
+								<span class="item-category__title">Поручни</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="item-category">
+								<img src="img/cat_mob7.png" alt="alt">
+								<span class="item-category__title">Водоотводящие желоба </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-6">
+							<a href="#" class="link-page">Все категории</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -250,8 +332,8 @@
 		<section class="catalog">
 			<div class="container">
 				<h2 class="title-section">ТОП-10 популярных товаров</h2>
-				<ul class="slider-catalog">
-					<li>
+				<div class="row row_catalog">
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -261,23 +343,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog1.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
-							<div class="item-catalog__price">8 600 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">8 600 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -287,23 +369,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog2.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">B1766 Смеситель для раковины</a>
-							<div class="item-catalog__price">7 000 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">7 000 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -313,23 +395,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog3.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D1006-3 Смеситель для умывальника</a>
-							<div class="item-catalog__price">4 000 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">4 000 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -339,31 +421,31 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog4.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D1071-6 Cмеситель для умывальника</a>
-							<div class="item-catalog__price">8 600 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">8 600 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<section class="catalog">
 			<div class="container">
 				<h2 class="title-section">Новые поступления товаров</h2>
-				<ul class="slider-catalog">
-					<li>
+				<div class="row row_catalog">
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -373,23 +455,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog1.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
-							<div class="item-catalog__price">8 600 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">8 600 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -399,23 +481,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog2.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">B1766 Смеситель для раковины</a>
-							<div class="item-catalog__price">7 000 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">7 000 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -425,23 +507,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog3.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D1006-3 Смеситель для умывальника</a>
-							<div class="item-catalog__price">4 000 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">4 000 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-					<li>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-6">
 						<div class="item-catalog">
 							<div class="tags-card">
 								<div class="tag-card tag-card_hit">хит продаж</div>
@@ -451,23 +533,23 @@
 							<a href="#modal-card" class="item-catalog__image fancybox">
 								<img src="img/catalog4.jpg" alt="alt">
 							</a>
-							<div class="item-catalog__top">
+							<div class="item-catalog__content">
 								<div class="articul">Артикул: 890133 </div>
+								<a href="#" class="item-catalog__title">D2352 Смеситель для ванной</a>
 								<div class="availability">Есть в наличии</div>
-							</div>
-							<a href="#" class="item-catalog__title">D1071-6 Cмеситель для умывальника </a>
-							<div class="item-catalog__price">8 600 ₽</div>
-							<div class="item-catalog__bottom">
-								<div class="quantity">
-									<div class="quantity-button quantity-down">–</div>
-									<input type="number" min="1" step="1" value="1">
-									<div class="quantity-button quantity-up">+</div>
+								<div class="item-catalog__price">8 600 ₽</div>
+								<div class="item-catalog__bottom">
+									<div class="quantity">
+										<div class="quantity-button quantity-down">–</div>
+										<input type="number" min="1" step="1" value="1">
+										<div class="quantity-button quantity-up">+</div>
+									</div>
+									<a href="#" class="btn-main">в корзину</a>
 								</div>
-								<a href="#" class="btn-main">в корзину</a>
 							</div>
 						</div>
-					</li>
-				</ul>
+					</div>
+				</div>
 			</div>
 		</section>
 
@@ -796,7 +878,7 @@
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/modal-video/jquery-modal-video.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.5"></script>
+<script src="js/common.js?ver=1.10"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
