@@ -1290,6 +1290,9 @@
 	.item-team__content {
 		padding: 10px;
 	}
+	.item-news__image {
+		height: 235px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1413,22 +1416,22 @@
 		padding-top: 25px;
 	}
 	.page-about .title-middle {
-    font-size: 17px;
-    line-height: 150%;
-}
-.about-quote {
-	font-size: 14px;
-}
-.section-team .title-section, .section-video .title-section {
-    padding-bottom: 20px;
-}
-.item-team {
-    padding: 5px;
-    padding-bottom: 8px;
-}
-.item-team__image {
-    height: 195px;
-}
+		font-size: 17px;
+		line-height: 150%;
+	}
+	.about-quote {
+		font-size: 14px;
+	}
+	.section-team .title-section, .section-video .title-section {
+		padding-bottom: 20px;
+	}
+	.item-team {
+		padding: 5px;
+		padding-bottom: 8px;
+	}
+	.item-team__image {
+		height: 195px;
+	}
 }
 
 /* Custom, iPhone Retina */
