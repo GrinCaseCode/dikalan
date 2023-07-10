@@ -661,7 +661,7 @@
 	}
 	.footer {
 		padding-top: 30px;
-	    padding-bottom: 65px;
+		padding-bottom: 65px;
 	}
 	.header {
 		transform: none !important;
@@ -1293,6 +1293,12 @@
 	}
 	.item-news__image {
 		height: 235px;
+	}
+	.page-contacts .title-section {
+		padding-bottom: 20px;
+	}
+	.page-contacts {
+		padding-top: 25px;
 	}
 }
 
