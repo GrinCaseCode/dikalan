@@ -65,7 +65,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	//плавный скролл
 	$(".nav-article li a").mPageScroll2id({
-		offset: 50
+		offset: 90
 	});
 
 	//кнопка sandwich
