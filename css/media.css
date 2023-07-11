@@ -365,6 +365,71 @@
 		padding: 30px 40px;
 		margin-bottom: 30px;
 	}
+	.item-number__head {
+		font-size: 52px;
+	}
+	.item-number {
+		font-size: 16px;
+	}
+	.page-delivery .row_about > div {
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+	.page-delivery .item-about {
+		line-height: 20px;
+	}
+	.page-delivery .item-about__title {
+		font-size: 22px;
+	}
+	.item-sertificat {
+		padding-bottom: 30px;
+	}
+	.item-sertificat__title {
+		padding: 13px 7px;
+		padding-bottom: 0;
+	}
+	.row_sertificats {
+		margin: 0 -10px;
+	}
+	.row_sertificats > div {
+		padding: 0 10px;
+	}
+	.text-delivery {
+		margin-bottom: 35px;
+	}
+	.payment-wrapper {
+		padding-top: 45px;
+	}
+	.page-delivery-payment ~ .consultation .consultation__title {
+		max-width: 430px;
+	}
+	.consultation__title span {
+		font-size: 33px;
+	}
+	.page-price .block-form_main.block-form .btn-main {
+		margin-top: 20px;
+	}
+	.page-price .block-form_main {
+		margin-left: 20px;
+		padding-top: 40px;
+		padding-bottom: 35px;
+	}
+	.page-price .title-form {
+		font-size: 24px;
+		margin-left: -20px;
+		margin-right: -20px;
+	}
+	.image-price img {
+		max-width: 600px;
+	}
+	.image-price {
+		top: -29px;
+		margin-right: -227px;
+	}
+	.page-price__text {
+		line-height: 186%;
+		max-width: 422px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -524,6 +589,56 @@
 	.section-team .title-section, .section-video .title-section {
 		padding-bottom: 25px;
 	}
+	.page-delivery .item-about__title {
+		font-size: 18px;
+	}
+	.page-delivery .row_about > div {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.item-number {
+		font-size: 14px;
+	}
+	.item-number__head {
+		font-size: 38px;
+		padding: 10px;
+	}
+	.title-middle_delivery {
+		padding: 0;
+	}
+	.page-delivery {
+		padding-bottom: 40px;
+	}
+	.text-delivery {
+		margin-bottom: 25px;
+	}
+	.payment-wrapper {
+		padding-top: 30px;
+	}
+	.consultation__title span {
+		font-size: 26px;
+	}
+	.row_payment {
+		margin: 0 -25px;
+	}
+	.row_payment > div {
+		padding: 0 25px;
+	}
+	.page-price .title-form {
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.image-price img {
+    max-width: 483px;
+}
+.image-price {
+    top: 24px;
+    margin-right: -192px;
+}
+.page-price .block-form_main {
+	margin-left: 0;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -1112,6 +1227,44 @@
 	.item-team__image {
 		height: 280px;
 	}
+	.title-middle_delivery {
+		padding-top: 15px;
+	}
+	.page-sertificats .title-section {
+		padding-bottom: 20px;
+	}
+	.item-sertificat {
+		padding-bottom: 25px;
+	}
+	.page-sertificats {
+		padding-top: 30px;
+	}
+	.item-delivery-payment {
+		margin-bottom: 20px;
+		min-height: initial;
+	}
+	.page-delivery-payment .title-middle {
+		margin-bottom: 12px;
+	}
+	.payment-wrapper {
+		padding-top: 15px;
+	}
+	.page-delivery-payment {
+		padding-bottom: 25px;
+	}
+	.image-price {
+		display: none;
+	}
+	.page-price__text {
+		max-width: 100%;
+	}
+	.page-price .title-section {
+		padding-bottom: 20px;
+	}
+	.page-price {
+		padding-top: 30px;
+		padding-bottom: 40px;
+	}
 }
 
 
@@ -1300,6 +1453,49 @@
 	.page-contacts {
 		padding-top: 25px;
 	}
+	.page-delivery .title-section {
+		padding-bottom: 20px;
+	}
+	.page-delivery {
+		padding-top: 30px;
+	}
+	.page-delivery .item-about__title {
+		font-size: 16px;
+	}
+	.page-delivery .row_about > div:nth-child(2), .page-delivery .row_about > div:nth-child(1) {
+		padding-top: 20px;
+	}
+	.page-delivery .row_about::before {
+		display: none;
+	}
+	.page-delivery .row_about > div:nth-child(3) {
+		padding-right: 10px;
+	}
+	.item-number__head {
+		font-size: 30px;
+		margin-bottom: 12px;
+	}
+	.item-number {
+		margin-bottom: 10px;
+	}
+	.row_numbers {
+		margin-top: 25px;
+		margin-bottom: 20px;
+	}
+	.page-delivery-payment {
+		padding-top: 30px;
+	}
+	.page-delivery-payment .title-section {
+		padding-bottom: 20px;
+	}
+	.page-delivery-payment .title-middle {
+		font-size: 20px;
+	}
+	.consultation__title span {
+		font-size: 23px;
+		margin-top: 20px;
+		line-height: 36px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1438,6 +1634,29 @@
 	}
 	.item-team__image {
 		height: 195px;
+	}
+	.row_numbers {
+		margin-left: -7px;
+		margin-right: -7px;
+	}
+	.row_numbers > div {
+		padding: 0 7px;
+	}
+	.row_sertificats {
+		margin: 0 -7px;
+	}
+	.row_sertificats > div {
+		padding: 0 7px;
+		margin-bottom: 15px;
+	}
+	.item-sertificat__title {
+		padding: 8px 3px;
+	}
+	.item-sertificat {
+		padding-bottom: 18px;
+	}
+	.page-sertificats {
+		padding-bottom: 20px;
 	}
 }
 
