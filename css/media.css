@@ -12,7 +12,7 @@
 		margin-right: 45px;
 	}
 	.header-top {
-		padding: 8px 0;
+		padding: 8px 0; 
 		font-size: 12px;
 	} 
 	.logo img {
@@ -430,6 +430,41 @@
 		line-height: 186%;
 		max-width: 422px;
 	}
+	.form-page {
+		padding: 49px 90px;
+		padding-bottom: 60px;
+	}
+	.form-page .row {
+		margin: 0 -20px;
+	}
+	.form-page .row > div {
+		padding: 0 20px;
+	}
+	.item-dealer__title {
+		margin-bottom: 18px;
+		font-size: 18px;
+	}
+	.item-dealer {
+		padding-left: 36px;
+		margin-bottom: 50px;
+	}
+	.bottom-dealers .title-section {
+		padding-bottom: 35px;
+	}
+	.item-dealer p br {
+		display: none;
+	}
+	.item-question__content {
+		padding: 25px;
+		padding-top: 0;
+	}
+	.item-question__head {
+    padding: 25px 25px;
+    font-size: 18px;
+}
+.item-question__head i {
+    font-size: 17px;
+    }
 }
 
 /* Large Devices, Wide Screens */
@@ -625,20 +660,49 @@
 		padding: 0 25px;
 	}
 	.page-price .title-form {
-    font-size: 20px;
-    margin-left: 0;
-    margin-right: 0;
-}
-.image-price img {
-    max-width: 483px;
-}
-.image-price {
-    top: 24px;
-    margin-right: -192px;
-}
-.page-price .block-form_main {
-	margin-left: 0;
-}
+		font-size: 20px;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.image-price img {
+		max-width: 483px;
+	}
+	.image-price {
+		top: 24px;
+		margin-right: -192px;
+	}
+	.page-price .block-form_main {
+		margin-left: 0;
+	}
+	.page-dealers .title-section {
+		margin-bottom: 35px;
+	}
+	.item-dealer {
+		margin-bottom: 35px;
+	}
+	.form-page {
+		padding: 35px 40px;
+		padding-bottom: 50px;
+	}
+	.file-upload label {
+		font-size: 13px;
+		padding: 9px 20px;
+	}
+	.file-upload label i {
+		font-size: 18px;
+		margin-right: 14px;
+	}
+	.form-page__bottom {
+		padding-top: 8px;
+	}
+	.form-page .title-form {
+		font-size: 22px;
+		padding-bottom: 24px;
+	}
+	.page-reviews,
+	.page-questions {
+		padding-top: 30px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -1496,6 +1560,38 @@
 		margin-top: 20px;
 		line-height: 36px;
 	}
+	.item-dealer__title {
+		margin-bottom: 10px;
+	}
+	.bottom-dealers .title-section {
+		padding-bottom: 25px;
+	}
+	.form-page__bottom {
+		flex-direction: column-reverse;
+	}
+	.form-page__bottom .checkbox {
+		margin-top: 20px;
+	}
+	.bottom-dealers {
+		padding-bottom: 40px;
+	}
+	.item-question__head {
+    padding: 20px 15px;
+    font-size: 16px;
+}
+.item-question__head i {
+	font-size: 15px;
+}
+.item-question__content {
+	padding: 20px 15px;
+	padding-top: 0;
+}
+.page-reviews .title-section {
+	padding-bottom: 22px;
+}
+.row_reviews > div {
+	margin-bottom: 22px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1657,6 +1753,32 @@
 	}
 	.page-sertificats {
 		padding-bottom: 20px;
+	}
+	.page-dealers {
+		padding-top: 30px;
+	}
+	.page-dealers .title-section {
+		margin-bottom: 22px;
+	}
+	.item-dealer {
+		margin-bottom: 28px;
+	}
+	.item-dealer__title {
+		font-size: 17px;
+	}
+	.form-page {
+		padding: 30px 25px;
+		padding-bottom: 35px;
+	}
+	.form-page .title-form {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	.page-questions .title-section {
+		padding-bottom: 22px;
+	}
+	.item-review {
+		padding: 15px;
 	}
 }
 

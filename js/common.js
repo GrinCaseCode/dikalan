@@ -245,8 +245,21 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 				$(this).next(".footer__content").slideToggle(200);
 			});
 		}
-	}
+	}	
 
+	/*input file*/
+	$("input[type='file']").change(function(){
+		var filename_text = $(this).parent().siblings(".name-upload");
+		var filename = $(this).val().replace(/.*\\/, "");
+		filename_text.html(filename);
+	});
+
+	$(".item-question__head").click(function() {
+		$(this).parent().toggleClass("active");
+		$(this).siblings().slideToggle(200);
+		$(this).parent().siblings(".item-question").removeClass("active");
+		$(this).parent().siblings(".item-question").find(".item-question__content").slideUp(200);
+	});
 
 	 // стайлер для select
 	 $('select').styler();
