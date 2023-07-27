@@ -492,9 +492,9 @@
 	}
 	.header.nav-down ~ * .filter-catalog__content {
 		max-height: calc(100vh - 270px);
-}
-.filter-catalog__content {
-	max-height: calc(100vh - 110px);
+	}
+	.filter-catalog__content {
+		max-height: calc(100vh - 110px);
 	}
 }
 
