@@ -459,12 +459,37 @@
 		padding-top: 0;
 	}
 	.item-question__head {
-    padding: 25px 25px;
-    font-size: 18px;
-}
-.item-question__head i {
-    font-size: 17px;
-    }
+		padding: 25px 25px;
+		font-size: 18px;
+	}
+	.item-question__head i {
+		font-size: 17px;
+	}
+
+	/*catalog*/
+	.link-catalog {
+		font-size: 13px;
+		letter-spacing: 0.3px;
+	}
+	.input-range__text,
+	.input-range input {
+		font-size: 14px;
+	}
+	.filter-catalog__bottom .btn-main {
+		width: 205px;
+	}
+	.checkbox_main label > span {
+		padding: 6px 0 0 36px;
+	}
+	.item-filter__head {
+		padding: 14px 0;
+	}
+	.range-controls {
+		margin-bottom: 5px;
+	}
+	.header.nav-down ~ * .filter-catalog {
+		top: 175px;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -702,6 +727,18 @@
 	.page-reviews,
 	.page-questions {
 		padding-top: 30px;
+	}
+
+	/*catalog*/
+	.input-range input {
+		padding: 0 10px;
+		padding-left: 27px;
+	}
+	.input-range__text, .input-range input {
+		font-size: 12px;
+	}
+	.input-range__text {
+		left: 10px;
 	}
 }
 
@@ -1329,6 +1366,49 @@
 		padding-top: 30px;
 		padding-bottom: 40px;
 	}
+
+
+	/*catalog*/
+	.filter-catalog {
+		position: static;
+		top: 0;
+		transition: initial;
+	}
+	.filter-catalog__content {
+		max-height: initial;
+		padding: 0;
+	}
+	.input-range__text, .input-range input {
+		font-size: 14px;
+	}
+	.input-range input {
+		padding-left: 32px;
+	}
+	.input-range__text {
+		top: 0;
+	}
+	.filter-catalog__bottom {
+		padding-top: 20px;
+	}
+	.filter-catalog {
+		margin-bottom: 25px;
+		display: none;
+	}
+	.row_catalog > div {
+		margin-bottom: 0;
+	}
+	.btn-main_filter {
+		margin-bottom: 20px;
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	.page-catalog {
+		padding-bottom: 20px;
+	}
+	.page-catalog .pager {
+		margin-top: 30px;
+	}
 }
 
 
@@ -1576,22 +1656,22 @@
 		padding-bottom: 40px;
 	}
 	.item-question__head {
-    padding: 20px 15px;
-    font-size: 16px;
-}
-.item-question__head i {
-	font-size: 15px;
-}
-.item-question__content {
-	padding: 20px 15px;
-	padding-top: 0;
-}
-.page-reviews .title-section {
-	padding-bottom: 22px;
-}
-.row_reviews > div {
-	margin-bottom: 22px;
-}
+		padding: 20px 15px;
+		font-size: 16px;
+	}
+	.item-question__head i {
+		font-size: 15px;
+	}
+	.item-question__content {
+		padding: 20px 15px;
+		padding-top: 0;
+	}
+	.page-reviews .title-section {
+		padding-bottom: 22px;
+	}
+	.row_reviews > div {
+		margin-bottom: 22px;
+	}
 }
 
 /* Extra Small Devices, Phones */
