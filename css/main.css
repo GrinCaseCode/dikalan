@@ -2503,10 +2503,10 @@ ol.list {
 }
 .checkbox_main label > span:before,
 .checkbox_main label > span:after {
-width: 24px;
-height: 24px;
-border-color: #928F8E;
-border-radius: 3px;
+	width: 24px;
+	height: 24px;
+	border-color: #928F8E;
+	border-radius: 3px;
 }
 .checkbox_main label > span:after {
 	font-size: 16px;
@@ -2521,16 +2521,16 @@ border-radius: 3px;
 	margin-bottom: 0;
 }
 .checkbox_main label > span {
-    padding: 8px 0 0 40px;
-    }
+	padding: 8px 0 0 40px;
+}
 .item-filter__content {
 	padding-bottom: 25px;
 	display: none;
 }
 .item-filter__head {
 	padding: 17px 0;
-font-weight: 500;
-line-height: normal;
+	font-weight: 500;
+	line-height: normal;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -2549,13 +2549,13 @@ line-height: normal;
 }
 .link-catalog {
 	padding: 12px 0;
-font-size: 14px;
-font-weight: 500;
-line-height: normal;
-color: #373737;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-border-bottom: 1px solid #DFDEDE;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: normal;
+	color: #373737;
+	letter-spacing: 0.42px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #DFDEDE;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -2581,13 +2581,13 @@ border-bottom: 1px solid #DFDEDE;
 	background: #FFFFFF;
 	padding: 0 18px;
 	padding-left: 39px;
-border-radius: 6px;
-border: 1px solid #928F8E;
+	border-radius: 6px;
+	border: 1px solid #928F8E;
 	width: 100%;
 	font-size: 16px;
 	line-height: 22px;
-color: #373737;
-font-family: 'Geologica';
+	color: #373737;
+	font-family: 'Geologica';
 }
 .irs--flat .irs-line {
 	height: 2px;
@@ -2645,7 +2645,7 @@ font-family: 'Geologica';
 	padding-top: 17px;
 	padding-bottom: 20px;
 	font-size: 16px;
-font-weight: 500;
+	font-weight: 500;
 }
 .price-filter {
 	padding-bottom: 15px;
@@ -2701,15 +2701,19 @@ font-weight: 500;
 }
 .filter-catalog__content {
 	max-height: 100vh;
-		max-height: calc(100vh - 130px);
+	max-height: calc(100vh - 130px);
 	padding-right: 15px;
 	overflow: auto;
+	transition: all 0.3s
 }
 .header.nav-down ~ * .filter-catalog {
 	top: 200px;
 }
+.header.nav-down ~ * .filter-catalog__content {
+	max-height: calc(100vh - 300px);
+}
 .page-catalog + .catalog {
-    border-top: 1px solid #DFDEDE;
+	border-top: 1px solid #DFDEDE;
 }
 .btn-main_filter {
 	display: none;

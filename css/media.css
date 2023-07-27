@@ -490,6 +490,12 @@
 	.header.nav-down ~ * .filter-catalog {
 		top: 175px;
 	}
+	.header.nav-down ~ * .filter-catalog__content {
+		max-height: calc(100vh - 270px);
+}
+.filter-catalog__content {
+	max-height: calc(100vh - 110px);
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -1375,7 +1381,7 @@
 		transition: initial;
 	}
 	.filter-catalog__content {
-		max-height: initial;
+		max-height: initial !important;
 		padding: 0;
 	}
 	.input-range__text, .input-range input {
